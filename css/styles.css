@@ -171,6 +171,9 @@ main {
     margin: 0 auto;
 }
 
+
+/* ===============ARTICLE STYLES===================== */
+
 #heroDisplay {
     width: 100%;
 }
@@ -232,4 +235,50 @@ article {
 
 p {
     margin-bottom: 1em;
+}
+
+
+/* ===============TILES STYLES===================== */
+
+section {
+    margin-bottom: 5em;
+    float: left;
+}
+
+.row h3 {
+    border-bottom: 5px solid;
+    margin-bottom: 1.5em;
+}
+
+h3.red {
+    border-bottom-color: rgb(223, 70, 97);
+}
+
+h3.blue {
+    border-bottom-color: rgb(0, 95, 131);
+}
+
+h3.green {
+    border-bottom-color: rgb(107, 165, 57);
+}
+
+.row ul li h3 {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.row ul li {
+    float: left;
+    width: 30%;
+    position: relative;
+}
+
+.row ul li:nth-child(2) {
+    margin: 0 5%;
+}
+
+.row ul li .tileImg {
+    width: 100%;
+    height: 6em;
+    background-size: contain;
 }

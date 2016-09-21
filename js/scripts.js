@@ -14,4 +14,14 @@ $(document).ready(function () {
         $('.imgCaption').text($caption);
     });
 
+    $('.tileImg').each(function () {
+        var $background = $(this).attr('image');
+        console.log($background);
+        $(this).css({
+            'background': 'url(' + $background + ')'
+            , 'background-size': 'cover'
+            , 'background-position': 'center center'
+        });
+    });
+
 });
